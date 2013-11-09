@@ -21,6 +21,13 @@ public class SaveAccount extends BaseAccount {
         this.lastUpdateDate = date;
     }
 
+    public SaveAccount(double balance, int PIN, double interest_rate, int periodMonths, DateTime lastUpdateDate) {
+        super(balance, PIN);
+        this.interest_rate = interest_rate;
+        this.periodMonths = periodMonths;
+        this.lastUpdateDate = lastUpdateDate;
+    }
+
     @Override
     protected void updateBalance() {
         DateTime currentDate = new DateTime();

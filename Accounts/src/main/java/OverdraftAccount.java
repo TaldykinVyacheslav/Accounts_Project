@@ -19,6 +19,13 @@ public class OverdraftAccount extends BaseAccount {
         this.interest_rate = interest_rate;
     }
 
+    public OverdraftAccount(double balance, int PIN, double interest_rate, int periodMonths, DateTime lastUpdateDate) {
+        super(balance, PIN);
+        this.interest_rate = interest_rate;
+        this.periodMonths = periodMonths;
+        this.lastUpdateDate = lastUpdateDate;
+    }
+
     @Override
     public void updateBalance() {
         DateTime currentDate = new DateTime();

@@ -17,6 +17,13 @@ public class CheckingAccount extends BaseAccount {
         this.per_transaction_fee = per_transaction_fee;
     }
 
+    public CheckingAccount(double balance, int PIN, int monthly_quota, double per_transaction_fee) {
+        super(balance, PIN);
+        this.total_transactions = 0;
+        this.monthly_quota = monthly_quota;
+        this.per_transaction_fee = per_transaction_fee;
+    }
+
     @Override
     protected void updateBalance() {
         if(total_transactions > monthly_quota) {

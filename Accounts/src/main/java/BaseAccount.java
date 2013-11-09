@@ -6,6 +6,11 @@
  */
 public abstract class BaseAccount {
     protected double balance;
+    protected int PIN;
+
+    public int getPIN() {
+        return PIN;
+    }
 
     protected void updateBalance() {
         ;
@@ -13,6 +18,11 @@ public abstract class BaseAccount {
 
     public BaseAccount(double balance) {
         this.balance = balance;
+    }
+
+    protected BaseAccount(double balance, int PIN) {
+        this.balance = balance;
+        this.PIN = PIN;
     }
 
     public void addMoney(double count) {

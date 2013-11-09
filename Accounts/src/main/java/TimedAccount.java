@@ -15,6 +15,12 @@ public class TimedAccount extends SaveAccount {
         this.withdraw_amount = withdraw_amount;
     }
 
+    public TimedAccount(double balance, int PIN, double interest_rate, int periodMonths,
+                        DateTime lastUpdateDate, double withdraw_amount) {
+        super(balance, PIN, interest_rate, periodMonths, lastUpdateDate);
+        this.withdraw_amount = withdraw_amount;
+    }
+
     @Override
     public void addMoney(double count) {
         super.addMoney(count);
