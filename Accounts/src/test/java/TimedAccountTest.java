@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import accounts.TimedAccount;
 import org.joda.time.DateTime;
 import org.junit.Test;
 
@@ -15,7 +16,7 @@ public class TimedAccountTest {
         TimedAccount timedAccount1 = new TimedAccount(10000, 0.05, 2, new DateTime(), 0.1);
         TimedAccount timedAccount2 = new TimedAccount(10000, 0.05, 2, (new DateTime()).minusMonths(3), 0.1);
 
-        String errorMessage = "Error in TimedAccount.getMoney()";
+        String errorMessage = "Error in accounts.TimedAccount.getMoney()";
         double result;
 
         result = timedAccount1.getMoney(5000);
@@ -34,7 +35,7 @@ public class TimedAccountTest {
         TimedAccount timedAccount2 = new TimedAccount(10000, 0.05, 2, (new DateTime()).minusMonths(3), 0.1);
         TimedAccount timedAccount3 = new TimedAccount(10000, 0.05, 2, (new DateTime()).minusMonths(1), 0.1);
 
-        String errorMessage = "Error in TimedAccount.checkBalance()";
+        String errorMessage = "Error in accounts.TimedAccount.checkBalance()";
         double result;
 
         result = timedAccount1.checkBalance();
@@ -51,7 +52,7 @@ public class TimedAccountTest {
     public void test1AddMoney() {
         TimedAccount timedAccount = new TimedAccount(10000, 0.05, 2, new DateTime(), 0.1);
 
-        String errorMessage = "Error in TimedAccount.addMoney()";
+        String errorMessage = "Error in accounts.TimedAccount.addMoney()";
         double result;
 
         timedAccount.addMoney(5000);
@@ -63,7 +64,7 @@ public class TimedAccountTest {
     public void test2AddMoney() {
         TimedAccount timedAccount = new TimedAccount(10000, 0.05, 2, new DateTime(), 0.1);
 
-        String errorMessage = "Error in TimedAccount.addMoney()";
+        String errorMessage = "Error in accounts.TimedAccount.addMoney()";
         double result;
 
         timedAccount.addMoney(5000);

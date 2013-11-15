@@ -1,6 +1,6 @@
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
+import accounts.CheckingAccount;
 import org.junit.Test;
 
 /**
@@ -51,7 +51,7 @@ public class CheckingAccountTest {
         CheckingAccount checkingAccount2 = new CheckingAccount(5000, 5, 100);
         CheckingAccount checkingAccount3 = new CheckingAccount(10000, 5, 100);
 
-        String errorMessage = "Error in CheckingAccount.checkBalance()";
+        String errorMessage = "Error in accounts.CheckingAccount.checkBalance()";
         double result;
 
         result = checkingAccount1.checkBalance();
@@ -68,7 +68,7 @@ public class CheckingAccountTest {
     public void test1AddMoney() {
         CheckingAccount checkingAccount = new CheckingAccount(10000, 5, 100);
 
-        String errorMessage = "Error in CheckingAccount.AddMoney()";
+        String errorMessage = "Error in accounts.CheckingAccount.AddMoney()";
         double result;
 
         checkingAccount.addMoney(5000);
@@ -80,7 +80,7 @@ public class CheckingAccountTest {
     public void test2AddMoney() {
         CheckingAccount checkingAccount = new CheckingAccount(10000, 5, 100);
 
-        String errorMessage = "Error in CheckingAccount.AddMoney()";
+        String errorMessage = "Error in accounts.CheckingAccount.AddMoney()";
         double result;
 
         checkingAccount.getMoney(3000);
@@ -93,7 +93,7 @@ public class CheckingAccountTest {
     public void test3AddMoney() {
         CheckingAccount checkingAccount = new CheckingAccount(10000, 5, 100);
 
-        String errorMessage = "Error in CheckingAccount.AddMoney()";
+        String errorMessage = "Error in accounts.CheckingAccount.AddMoney()";
         double result;
 
         checkingAccount.getMoney(3000);

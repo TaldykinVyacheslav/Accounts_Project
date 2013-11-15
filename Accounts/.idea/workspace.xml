@@ -20,7 +20,7 @@
     <file path="/CheckingAccountTest.java" changelist="f7390014-a894-49be-b3d8-b47e395b2640" time="1383936165527" ignored="false" />
     <file path="/OverdraftAccountTest.java" changelist="f7390014-a894-49be-b3d8-b47e395b2640" time="1383936816726" ignored="false" />
     <file path="/SecuritySystem.java" changelist="f7390014-a894-49be-b3d8-b47e395b2640" time="1384024559588" ignored="false" />
-    <file path="/Main.java" changelist="f7390014-a894-49be-b3d8-b47e395b2640" time="1384025209451" ignored="false" />
+    <file path="/Main.java" changelist="f7390014-a894-49be-b3d8-b47e395b2640" time="1384511376298" ignored="false" />
     <file path="/accountType.java" changelist="f7390014-a894-49be-b3d8-b47e395b2640" time="1383993160949" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,31 +82,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SecuritySystem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SecuritySystem.java">
+      <file leaf-file-name="SecuritySystem.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/security/SecuritySystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="23" selection-start="4188" selection-end="4188" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="73" column="17" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.26086956">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SaveAccount.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SaveAccount.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/accounts/SaveAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="15" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
+            <state line="33" column="15" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.69186044">
+            <state line="49" column="35" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#getAccountNumber#0;class#Main#0" expanded="false" />
+                <element signature="method#getAccount#0;class#Main#0" expanded="false" />
+                <element signature="method#verifyAccountPIN#0;class#Main#0" expanded="false" />
+                <element signature="method#makeOperationOnAccount#0;class#Main#0" expanded="false" />
+                <element signature="method#getAccountType#0;class#Main#0" expanded="false" />
+                <element signature="method#makeMargin#0;class#Main#0" expanded="false" />
+                <element signature="method#getIntegerFromConsole#0;class#Main#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseAccount.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/accounts/BaseAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="52" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountEnum.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/accounts/AccountEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="140" selection-end="172" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckingAccount.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/accounts/CheckingAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="52" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OverdraftAccount.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/accounts/OverdraftAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="119" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/accounts/OverdraftAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/accounts/TimedAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/accounts/CheckingAccount.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CheckingAccountTest.java" />
@@ -137,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/main/java/CheckingAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/SecuritySystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/security/SecuritySystem.java" />
       </list>
     </option>
   </component>
@@ -189,6 +234,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,28 +285,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Accounts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Accounts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -289,7 +313,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -323,9 +346,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.AccountTest">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -442,11 +465,12 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -458,13 +482,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3345979" sideWeight="0.6609589" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34901366" sideWeight="0.6609589" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33904108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34901366" sideWeight="0.6643836" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33561644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.6712329" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -530,7 +553,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/SaveAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/accounts/SaveAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="29" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
           <folding />
@@ -585,65 +608,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BaseAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="52" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TimedAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/accounts/TimedAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="5" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OverdraftAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="119" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CheckingAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AccountEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="112" selection-end="144" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_05/src.zip!/java/lang/ProcessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="0" selection-start="4260" selection-end="4260" vertical-scroll-proportion="0.33333334">
+        <state line="132" column="0" selection-start="4260" selection-end="4260" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/accounts/SaveAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="15" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SecuritySystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/accounts/BaseAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="23" selection-start="4188" selection-end="4188" vertical-scroll-proportion="0.0">
+        <state line="24" column="52" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SaveAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/accounts/AccountEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="15" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
+        <state line="9" column="4" selection-start="140" selection-end="172" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/accounts/CheckingAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.69186044">
+        <state line="21" column="52" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/accounts/OverdraftAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="119" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="35" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getAccountNumber#0;class#Main#0" expanded="false" />
+            <element signature="method#getAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#verifyAccountPIN#0;class#Main#0" expanded="false" />
+            <element signature="method#makeOperationOnAccount#0;class#Main#0" expanded="false" />
+            <element signature="method#getAccountType#0;class#Main#0" expanded="false" />
+            <element signature="method#makeMargin#0;class#Main#0" expanded="false" />
+            <element signature="method#getIntegerFromConsole#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/security/SecuritySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="17" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.26086956">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

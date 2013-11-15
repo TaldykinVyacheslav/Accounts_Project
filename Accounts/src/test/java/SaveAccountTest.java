@@ -1,9 +1,7 @@
 import static org.junit.Assert.*;
 
+import accounts.SaveAccount;
 import org.joda.time.DateTime;
-import org.joda.time.Months;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -19,7 +17,7 @@ public class SaveAccountTest {
         SaveAccount saveAccount = new SaveAccount(10000, 0.03, 2, new DateTime());
         SaveAccount saveAccount2 = new SaveAccount(10000, 0.03, 2, (new DateTime()).minusMonths(3));
 
-        String errorMessage = "Error in SaveAccount.getMoney()";
+        String errorMessage = "Error in accounts.SaveAccount.getMoney()";
 
         double result = saveAccount.getMoney(5000);
         assertEquals(errorMessage, 5000, result, 0.0);
@@ -37,7 +35,7 @@ public class SaveAccountTest {
         SaveAccount saveAccount2 = new SaveAccount(10000, 0.03, 2, (new DateTime()).minusMonths(3));
         SaveAccount saveAccount3 = new SaveAccount(10000, 0.03, 2, (new DateTime()).minusMonths(1));
 
-        String errorMessage = "Error in SaveAccount.getMoney()";
+        String errorMessage = "Error in accounts.SaveAccount.getMoney()";
         double result;
 
         result = saveAccount.checkBalance();
@@ -54,7 +52,7 @@ public class SaveAccountTest {
     public void test1AddMoney() {
         SaveAccount saveAccount = new SaveAccount(10000, 0.05, 2, new DateTime());
 
-        String errorMessage = "Error in SaveAccount.addMoney()";
+        String errorMessage = "Error in accounts.SaveAccount.addMoney()";
         double result;
 
         saveAccount.addMoney(5000);
@@ -66,7 +64,7 @@ public class SaveAccountTest {
     public void test2AddMoney() {
         SaveAccount saveAccount = new SaveAccount(10000, 0.05, 2, new DateTime());
 
-        String errorMessage = "Error in SaveAccount.addMoney()";
+        String errorMessage = "Error in accounts.SaveAccount.addMoney()";
         double result;
 
         saveAccount.addMoney(5000);

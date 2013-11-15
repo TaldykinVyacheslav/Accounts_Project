@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import accounts.OverdraftAccount;
 import org.joda.time.DateTime;
 import org.junit.Test;
 
@@ -14,7 +15,7 @@ public class OverdraftAccountTest {
     public void testGetMoney() throws Exception {
         OverdraftAccount overdraftAccount = new OverdraftAccount(10000, new DateTime(), 0.05, 2);
 
-        String errorMessage = "Error in OverdraftAccount.getMoney()";
+        String errorMessage = "Error in accounts.OverdraftAccount.getMoney()";
         double result;
 
         result = overdraftAccount.getMoney(1000);
